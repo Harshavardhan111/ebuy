@@ -1,0 +1,80 @@
+.first-heading
+{
+  color: rgb(231, 33, 33);
+  text-align: center;
+   
+}
+h6
+{
+  color: gray;
+}
+
+
+.center{
+  color: rgb(228, 14, 49);
+  text-align: center;
+
+}
+.product{
+     padding: 40px 0;  
+}
+.box{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn
+{
+  background-color: rgb(185, 235, 189);
+  border-radius: 50%;
+  font-size: 12px;
+}
+.content span{
+  font-weight: 800;
+  font-size: 18px;
+}
+.product_image .fas
+{
+  color: orange;
+}
+.cart_btn
+{
+  border-radius: 4px;
+  background-color: #00C0F0;
+  color: #fff;
+  font-weight: 800px;
+  font-size: 12px;
+  margin-top: 20px;
+  border: none;
+  padding: 4px 16px;
+  transition: 0.4s;
+ 
+}
+
+.cart_btn:hover{
+    color: rgb(56, 219, 35);
+    background: transparent;
+    border: 1px solid rgb(103, 228, 155);
+    
+
+}
+
+img
+{
+height: 200px;
+width: 200px;
+}
+marquee{
+  font-size: 30px;
+  color: darkslategrey;
+ }
+ 
+
+
+
+
+
+
+
+
+

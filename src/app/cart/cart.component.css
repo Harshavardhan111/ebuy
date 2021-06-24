@@ -1,0 +1,37 @@
+.btn
+{
+  background-color: rgb(231, 140, 140);
+ 
+  font-size: 16px;
+}
+
+
+.far .fa
+{
+  color: red;
+}
+h6{
+  color: red;
+}
+
+
+.cart_section
+{
+  padding: 40px 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

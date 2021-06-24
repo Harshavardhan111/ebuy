@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ecommerce Website Design</title>
+
+
+<!--FA links-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/brands.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/brands.css">
+
+
+
+
+	
+
+</head>
+
+
+
+
+<body>
+  
+<div class="container">
+    <div class="navbar">
+         <div class="logo">
+             <img src="./assets/images/logo.png" width="125px">
+          </div>
+        
+        <nav>
+          <ul id="MenuItems">
+             <li>   <i class="fas fa-home"></i>
+ 							  <a routerLink="/home">Home</a></li>
+             <li> 		
+							 <a routerLink="/fashion">Fashion</a></li>
+            
+							 <li>  
+ 							 <a routerLink="/electronics">Electronics</a>
+							</li>
+
+             <li>  
+						
+							 <a routerLink="/home-appliances">Home-Appliances</a></li>
+
+
+							 <li>  
+ 							 <a routerLink="/signin">Sign-In</a>
+							</li>
+
+
+
+             <li> <i class="far fa-user"></i>
+						
+							 <a routerLink="/account">SignUP</a></li>
+
+
+
+
+
+            </ul>
+
+
+
+
+         </nav>
+				      <!--cart icon-->
+							<div class="cart_icon" routerLink="/cart">
+						   	  	<i class="fas fa-shopping-cart"></i>
+							            <div class="cart_value">
+									              
+							            </div>
+							</div>
+							<!--cart icon-->	
+
+             <img src="./assets/images/menu.png " class="menu-icon" onclick="menu-toggle()">
+             
+    </div>                     
+  </div>
+
+  <router-outlet></router-outlet>
+
+<!--footer start-->
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>ebuy<span>.in</span></h3>
+
+				<p class="footer-links">
+					<a routerLink="#" class="link-1">Home</a>
+					
+					<a routerLink="#">Blog</a>
+				
+					<a routerLink="#">Pricing</a>
+				
+					<a routerLink="#">About</a>
+					
+					<a routerLink="#">Faq</a>
+					
+					<a routerLink="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">ebuy © 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>ebuy</span> Hyderabad, chaitanyapuri 500060</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 9999999999</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a routerLink="mailto:support@company.com" color="white">support@ebuy.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+				</p>
+				<h6 class="foh">company information</h6>
+				
+				<div class="footer-icons">
+
+					<a routerLink="#">
+						<i class="fab fa-facebook-square"></i>
+
+					</a>
+
+					<a routerLink="#">
+						<i class="fab fa-twitter-square"></i>
+					</a>
+
+					<a routerLink="#">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+
+					<a routerLink="#">
+						<i class="fab fa-github-square"></i>
+					</a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+
+
+
+
+
+<!--footer end-->
+
+
+
+
+
+
+
+  
+</body>
+
+</html>
